@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Roboto:wght@100&display=swap');
+body {
+    font-family: "Raleway", "Ubuntu", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*---------------------------Padding-----------------------------------*/
+
+.padding-xxsmall {
+    padding: 0.25rem;
+}
+
+.padding-xsmall {
+    padding: 0.5rem;
+}
+
+.padding-small {
+    padding: 1rem;
+}
+
+.padding-medium {
+    padding: 1.5rem;
+}
+
+.padding-large {
+    padding: 2rem;
+}
+
+.padding-xlarge {
+    padding: 2.5rem;
+}
+
+.padding-xxlarge {
+    padding: 3rem;
+}
+
+
+/*--------------------------------------------*/
+
+.padding-top-bottom-small {
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.padding-top-bottom-medium {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.padding-top-bottom-large {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+
+/*---------------------------------------------*/
+
+.padding-left-right-xsmall {
+    padding: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.padding-left-right-small {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.padding-left-right-medium {
+    padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+.padding-left-right-large {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.padding-left-right-xlarge {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.padding-left-right-xxlarge {
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+
+/*-----------------------------------------------------------Margin-------------------------------------------------------------------*/
+
+.margin-xsmall {
+    margin: 0.25rem;
+}
+
+.margin-small {
+    margin: 0.5rem;
+}
+
+.margin-medium {
+    margin: 1rem;
+}
+
+.margin-large {
+    margin: 1.5rem;
+}
+
+.margin-xlarge {
+    margin: 2rem;
+}
+
+
+/*--------------------------------------------*/
+
+.margin-top-bottom-small {
+    margin: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.margin-top-bottom-medium {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.margin-top-bottom-large {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+/*---------------------------------------------*/
+
+.margin-left-right-small {
+    margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.margin-left-right-medium {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.margin-left-right-large {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+
+/*-----------Responsive Image-------------------*/
+
+.resposive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*------------------------Flex----------------------------*/
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-row-spacearound {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-space-even {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.spacearound-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/*--------------------------------------------------scroll------------------------------------------------------------------*/
+
+.over-flow-x {
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.over-flow-y {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+/*----------------------------------------------------------Positioning-------------------------------------------------------------------*/
+
+.top-left-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top-right-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.bottom-left-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky-1rem {
+    position: sticky;
+    top: 1rem;
+}
+
+
+/*---------------------------------------------Box Shadow-------------------------------------------------*/
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.shadow-xl {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}

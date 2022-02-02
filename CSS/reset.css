@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+code,
+kbd,
+samp,
+pre {
+    font-family: theme('fontFamily.mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
