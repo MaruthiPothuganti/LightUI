@@ -8,126 +8,126 @@ body {
 
 /*---------------------------Padding-----------------------------------*/
 
-.padding-xxsmall {
+.padding-xxs {
     padding: 0.25rem;
 }
 
-.padding-xsmall {
+.padding-xs {
     padding: 0.5rem;
 }
 
-.padding-small {
+.padding-s {
     padding: 1rem;
 }
 
-.padding-medium {
+.padding-m {
     padding: 1.5rem;
 }
 
-.padding-large {
+.padding-l {
     padding: 2rem;
 }
 
-.padding-xlarge {
+.padding-xl {
     padding: 2.5rem;
 }
 
-.padding-xxlarge {
+.padding-xxl {
     padding: 3rem;
 }
 
 
 /*--------------------------------------------*/
 
-.padding-top-bottom-small {
+.padding-v-s {
     padding: 0.25rem 0rem 0.25rem 0rem;
 }
 
-.padding-top-bottom-medium {
+.padding-v-m {
     padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
-.padding-top-bottom-large {
+.padding-v-l {
     padding: 1rem 0rem 1rem 0rem;
 }
 
 
 /*---------------------------------------------*/
 
-.padding-left-right-xsmall {
+.padding-h-xs {
     padding: 0rem 0.25rem 0rem 0.25rem;
 }
 
-.padding-left-right-small {
+.padding-h-s {
     padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
-.padding-left-right-medium {
+.padding-h-m {
     padding: 0rem 0.75rem 0rem 0.75rem;
 }
 
-.padding-left-right-large {
+.padding-h-l {
     padding: 0rem 1rem 0rem 1rem;
 }
 
-.padding-left-right-xlarge {
+.padding-h-xl {
     padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
-.padding-left-right-xxlarge {
+.padding-h-xxl {
     padding: 0rem 2rem 0rem 2rem;
 }
 
 
 /*-----------------------------------------------------------Margin-------------------------------------------------------------------*/
 
-.margin-xsmall {
+.margin-xs {
     margin: 0.25rem;
 }
 
-.margin-small {
+.margin-s {
     margin: 0.5rem;
 }
 
-.margin-medium {
+.margin-m {
     margin: 1rem;
 }
 
-.margin-large {
+.margin-l {
     margin: 1.5rem;
 }
 
-.margin-xlarge {
+.margin-xl {
     margin: 2rem;
 }
 
 
 /*--------------------------------------------*/
 
-.margin-top-bottom-small {
+.margin-v-s {
     margin: 0.25rem 0rem 0.25rem 0rem;
 }
 
-.margin-top-bottom-medium {
+.margin-v-m {
     margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
-.margin-top-bottom-large {
+.margin-v-l {
     margin: 1rem 0rem 1rem 0rem;
 }
 
 
 /*---------------------------------------------*/
 
-.margin-left-right-small {
+.margin-h-s {
     margin: 0rem 0.25rem 0rem 0.25rem;
 }
 
-.margin-left-right-medium {
+.margin-h-m {
     margin: 0rem 0.5rem 0rem 0.5rem;
 }
 
-.margin-left-right-large {
+.margin-h-l {
     margin: 0rem 1rem 0rem 1rem;
 }
 
@@ -188,35 +188,30 @@ body {
 
 .flex-space-between {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .flex-space-even {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
 .spacearound-wrap {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 
 /*--------------------------------------------------scroll------------------------------------------------------------------*/
 
-.over-flow-x {
-    overflow: scroll;
-    overflow-y: hidden;
+.scroll-x {
+    overflow-x: scroll;
 }
 
-.over-flow-y {
-    overflow: scroll;
-    overflow-x: hidden;
+.scroll-y {
+    overflow-y: scroll;
 }
 
 
