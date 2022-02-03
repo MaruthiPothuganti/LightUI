@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Roboto:wght@100&display=swap');
+body {
+    font-family: "Raleway", "Ubuntu", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*---------------------------Padding-----------------------------------*/
+
+.padding-xxs {
+    padding: 0.25rem;
+}
+
+.padding-xs {
+    padding: 0.5rem;
+}
+
+.padding-s {
+    padding: 1rem;
+}
+
+.padding-m {
+    padding: 1.5rem;
+}
+
+.padding-l {
+    padding: 2rem;
+}
+
+.padding-xl {
+    padding: 2.5rem;
+}
+
+.padding-xxl {
+    padding: 3rem;
+}
+
+
+/*--------------------------------------------*/
+
+.padding-v-s {
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.padding-v-m {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.padding-v-l {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+
+/*---------------------------------------------*/
+
+.padding-h-xs {
+    padding: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.padding-h-s {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.padding-h-m {
+    padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+.padding-h-l {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.padding-h-xl {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.padding-h-xxl {
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+
+/*-----------------------------------------------------------Margin-------------------------------------------------------------------*/
+
+.margin-xs {
+    margin: 0.25rem;
+}
+
+.margin-s {
+    margin: 0.5rem;
+}
+
+.margin-m {
+    margin: 1rem;
+}
+
+.margin-l {
+    margin: 1.5rem;
+}
+
+.margin-xl {
+    margin: 2rem;
+}
+
+
+/*--------------------------------------------*/
+
+.margin-v-s {
+    margin: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.margin-v-m {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.margin-v-l {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+/*---------------------------------------------*/
+
+.margin-h-s {
+    margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.margin-h-m {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.margin-h-l {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+
+/*-----------Responsive Image-------------------*/
+
+.resposive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*------------------------Flex----------------------------*/
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-row-spacearound {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-space-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spacearound-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+/*--------------------------------------------------scroll------------------------------------------------------------------*/
+
+.scroll-x {
+    overflow-x: scroll;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+}
+
+
+/*----------------------------------------------------------Positioning-------------------------------------------------------------------*/
+
+.top-left-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top-right-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.bottom-left-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky-1rem {
+    position: sticky;
+    top: 1rem;
+}
+
+
+/*---------------------------------------------Box Shadow-------------------------------------------------*/
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.shadow-xl {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
