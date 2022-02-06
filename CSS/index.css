@@ -25,10 +25,7 @@
     
     .btn-primary {
         background-color: var(--prime-blue);
-    }
-    
-    .btn-primary:hover {
-        background-color: #4267b2;
+        color: var(--secondary-white);
     }
     
     .btn-secondary {

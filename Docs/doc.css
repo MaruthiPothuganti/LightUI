@@ -88,27 +88,27 @@
     }
     
     .primary {
-        background-color: #1877f2;
+        background-color: var(--prime-blue);
     }
     
     .seccondary {
-        background-color: #fefdff;
+        background-color: var(--secondary-white);
     }
     
     .accent {
-        background-color: #14bdeb;
+        background-color: var(--accent-color);
     }
     
     .danger {
-        background-color: #F44336;
+        background-color: var(--danger-color);
     }
     
     .success {
-        background-color: #4CAF50;
+        background-color: var(--success-color);
     }
     
     .warning {
-        background-color: #FF9800;
+        background-color: var(--warning-color);
     }
     
     .footer {
@@ -131,14 +131,9 @@
     }
     
     body::-webkit-scrollbar {
-        /* display: none; */
         width: 5px;
     }
     
     body::-webkit-scrollbar-thumb {
         background-color: var(--prime-blue);
     }
-    /* body {
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-    } */
