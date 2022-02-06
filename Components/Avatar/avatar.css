@@ -1,0 +1,23 @@
+.avatar-rd {
+    border-radius: 50%;
+}
+
+.avatar-sq {
+    border-radius: 10%;
+}
+
+.av-xs {
+    height: 5rem;
+}
+
+.av-s {
+    height: 8rem;
+}
+
+.av-m {
+    height: 10rem;
+}
+
+.av-l {
+    height: 12rem;
+}
