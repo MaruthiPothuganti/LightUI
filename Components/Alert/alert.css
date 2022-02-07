@@ -1,0 +1,50 @@
+.alert {
+    width: 90%;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert-primary {
+    color: var(--prime-blue);
+    background-color: var(--prime-blue-lt);
+}
+
+.alert-secondary {
+    background-color: var(--secondary-white);
+}
+
+.alert-info {
+    color: var(--accent-color);
+    background-color: var(--accent-color-lt);
+}
+
+.alert-danger {
+    color: var(--danger-color);
+    background-color: var(--danger-color-lt);
+}
+
+.alert-warning {
+    color: var(--warning-color);
+    background-color: var(--warning-color-lt);
+}
+
+.alert-success {
+    color: var(-success-color);
+    background-color: var(--success-color-lt);
+}
+
+ion-icon {
+    font-size: large;
+}
+
+ion-icon:hover {
+    opacity: 0.5;
+}
