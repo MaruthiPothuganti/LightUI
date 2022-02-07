@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge | LightUI</title>
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="badge.css">
+</head>
+
+<body>
+    <div class="nav flex-space-between padding-xxl shadow-sm">
+        <!-- <ion-icon class="header-icon" name="sunny-outline"></ion-icon> -->
+
+        <a href="../../index.html">
+            <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+        </a>
+        <ion-icon class="header-icon" name="moon"></ion-icon>
+    </div>
+    <main class="flex-row">
+        <div class="menuList">
+            <h2 class="comp-head">Getting Started</h2>
+            <ul class="padding-s">
+
+                <li class="comp-el padding-v-l"><a href="../../Docs/colors.html">Typography</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/colors.html">Colors</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/conclusion.html">Conclusions</a></li>
+            </ul>
+            <br>
+            <h2 class="comp-head">Components</h2>
+            <ul class="padding-s">
+                <li class="comp-el padding-v-l"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="comp-el padding-v-l"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="comp-el padding-v-l"><a class="active" href="#">Badges</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Button</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Card</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Image</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Toasts</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Lists</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Navigation</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Text-utilities</a></li>
+            </ul>
+        </div>
+        <div class="main-content padding-l">
+            <h1 id="main-heading">Badges</h1>
+            <p class="padding-l">Badges can notify you that there are new or unread messages or notifications. They can be on Icons and avatars.</p>
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Badges on Icons</h2>
+            <p class="padding-l">Badges on the icons generally notify the count of unread messages </p>
+
+            <div class="element-display">
+                <button class="badge">
+                    <ion-icon name="notifications"></ion-icon> 
+                    <span class="badge-notify">9+</span> 
+                </button>
+
+                <button class="badge">
+                    <ion-icon name="bag"></ion-icon>
+                    <span class="badge-notify">10</span> 
+                </button>
+
+
+            </div>
+
+            <!-- ---------------------------------------------------------------- -->
+            <p class="padding-l">To use the above badge on Icon components, just copy and paste the below code snippets:</p>
+
+            <iframe src="https://www.thiscodeworks.com/embed/6200f5144dd44f0015f3cdb3" style="width: 100%; height: 203px;" frameborder="0"></iframe>
+
+
+
+            <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Badges on Avatars</h2>
+            <p class="padding-l">Badges on the Avatars indicates the status of the user. The states are <span class="color-text">Available</span>, <span class="color-text">Away</span>, <span class="color-text">Busy</span>, <span class="color-text">On Mobile</span> and
+                <span class="color-text">Presenting</span>.</p>
+            <div class="element-display">
+                <div class="avatar-badge">
+                    <img class="avatar" src="/Assets/Images/AvatarBadge.jfif" alt="avatar badge">
+                    <ion-icon class="status available" name="ellipse"></ion-icon>
+                </div>
+                <div class="avatar-badge">
+                    <img class="avatar" src="/Assets/Images/AvatarBadge.jfif" alt="avatar badge">
+                    <ion-icon class="status away" name="time"></ion-icon>
+                </div>
+                <div class="avatar-badge">
+                    <img class="avatar" src="/Assets/Images/AvatarBadge.jfif" alt="avatar badge">
+                    <ion-icon class="status busy" name="ellipse"></ion-icon>
+                </div>
+                <div class="avatar-badge">
+                    <img class="avatar" src="/Assets/Images/AvatarBadge.jfif" alt="avatar badge">
+                    <ion-icon class="status mobile" name="phone-portrait"></ion-icon>
+                </div>
+                <div class="avatar-badge">
+                    <img class="avatar" src="/Assets/Images/AvatarBadge.jfif" alt="avatar badge">
+                    <ion-icon class="status presenting" name="remove-circle"></ion-icon>
+                </div>
+
+            </div>
+            <p class="padding-l">To use the above badge on avatar components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/62011b83ed723a001551bf8e" style="width: 100%; height: 346px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+            <div class="bottom-nav flex-space-between">
+
+                <a class="color-text" href="../Alert/alert.html">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Alert
+                </a>
+                <a class="color-text" href="#">Button <ion-icon name="arrow-forward-circle-outline"></ion-icon> 
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class="footer flex-space-even">
+        <div class="gratitude">
+            <div class="brand">
+                <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+                <span>Light UI</span>
+
+            </div>
+            <p> Designed and built with all the love in the world by the
+                <a class="footer-link color-text" href="https://maruthipothuganti.netlify.app" target="_blank">Maruthi Pothuganti</a> with the help of our NeoG Community.
+            </p>
+        </div>
+
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

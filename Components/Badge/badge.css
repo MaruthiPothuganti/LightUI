@@ -1,0 +1,66 @@
+.element-display {
+    gap: 5%;
+}
+
+
+/*-----------------Icon Badge------------------------------*/
+
+.badge {
+    font-size: 4rem;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+}
+
+.badge-notify {
+    position: absolute;
+    padding: 0.5rem;
+    font-size: small;
+    background-color: #1877f2;
+    border-radius: 50%;
+    color: white;
+    top: -10%;
+    right: 0.5px;
+}
+
+
+/*---------------Avatar badge -----------------*/
+
+.avatar-badge {
+    position: relative;
+}
+
+.avatar {
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.status {
+    font-size: x-large;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+.available {
+    color: green;
+}
+
+.away {
+    color: orange;
+}
+
+.busy {
+    color: red;
+}
+
+.mobile {
+    color: green;
+}
+
+.presenting {
+    color: red;
+}
