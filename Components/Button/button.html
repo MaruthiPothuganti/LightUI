@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button | LightUI</title>
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+    <div class="nav flex-space-between padding-xxl shadow-sm">
+        <!-- <ion-icon class="header-icon" name="sunny-outline"></ion-icon> -->
+
+        <a href="../../index.html">
+            <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+        </a>
+        <ion-icon class="header-icon" name="moon"></ion-icon>
+    </div>
+    <main class="flex-row">
+        <div class="menuList">
+            <h2 class="comp-head">Getting Started</h2>
+            <ul class="padding-s">
+
+                <li class="comp-el padding-v-l"><a href="../../Docs/docs.html">Typography</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/colors.html">Colors</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/conclusion.html">Conclusions</a></li>
+            </ul>
+            <br>
+            <h2 class="comp-head">Components</h2>
+            <ul class="padding-s">
+                <li class="comp-el padding-v-l"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="comp-el padding-v-l"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="comp-el padding-v-l"><a href="../Badge/badge.html">Badges</a></li>
+                <li class="comp-el padding-v-l"><a class="active" href="#">Button</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Card</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Image</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Toasts</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Lists</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Navigation</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Text-utilities</a></li>
+            </ul>
+        </div>
+        <div class="main-content padding-l">
+            <h1 id="main-heading">Buttons</h1>
+            <p class="padding-l">A button indicates a possible user action.</p>
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Default Buttons</h2>
+            <p class="padding-l">All Buttons have the general <span class="color-text">btn</span> class here. The type of button is styled by a modifier class i.e, <span class="color-text">.btn-primary</span>, <span class="color-text">.btn-secondary</span>, <span class="color-text">.btn-accent</span>,
+                <span class="color-text">.btn-danger</span>, <span class="color-text">.btn-succes</span>, and <span class="color-text">.btn-warn</span> respectively.</p>
+
+            <div class="element-display">
+                <button class="btn btn-primary">
+                    Primary button
+                </button>
+
+                <button class="btn btn-secondary">
+                    Secondary button
+                </button>
+                <button class="btn btn-accent">
+                    Accent button
+                </button>
+                <button class="btn btn-danger">
+                    Danger
+                </button>
+                <button class="btn btn-success">
+                    Success
+                </button>
+                <button class="btn btn-warn">
+                    Warning
+                </button>
+
+
+            </div>
+
+            <!-- ---------------------------------------------------------------- -->
+            <p class="padding-l">To use the above default button components, just copy and paste the below code snippets:</p>
+            <!-- <iframe src="https://www.thiscodeworks.com/embed/62020a9ded723a001551c0dc" style="width: 100%; height: 333px;" frameborder="0"></iframe> -->
+
+
+
+
+            <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Outlined Buttons</h2>
+            <p class="padding-l">Outlined buttons will have a transparent body by default and are highlighted when hovered above them.</p>
+            <div class="element-display">
+                <button class="btn btn-ol-primary">
+                    Primary button
+                </button>
+
+                <button class="btn btn-ol-secondary">
+                    Secondary button
+                </button>
+                <button class="btn btn-ol-accent">
+                    Accent button
+                </button>
+                <button class="btn btn-ol-danger">
+                    Danger
+                </button>
+                <button class="btn btn-ol-success">
+                    Success
+                </button>
+                <button class="btn btn-ol-warn">
+                    Warning
+                </button>
+
+            </div>
+            <p class="padding-l">To use the above Outlined Button components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/6202b9e0234b8a0015700be0" style="width: 100%; height: 333px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+
+
+            <h2 class="sub-heading">Buttons with Icons</h2>
+            <p class="padding-l">Buttons with Icons are default buttons with Icons included.</p>
+            <div class="element-display">
+                <button class="btn btn-primary">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                    Follow
+                </button>
+
+                <button class="btn btn-danger">
+                    <ion-icon name="stop-circle-outline"></ion-icon>
+                    Stop
+                </button>
+                <button class="btn btn-success">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                    Play
+                </button>
+                <button class="btn btn-warn">
+                    <ion-icon name="trash-outline"></ion-icon>
+                    Delete
+                </button>
+
+            </div>
+            <p class="padding-l">To use the above Buttons with Icons components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/6202ba14234b8a0015700be1" style="width: 100%; height: 307px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+
+
+            <h2 class="sub-heading">Ghost Buttons</h2>
+            <p class="padding-l">Ghost buttons are those buttons which only reveal themselves as buttons when hovered on them. Generally they disguise themselves as normal text.</p>
+            <div class="element-display">
+                <button class="btn btn-gst-primary">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                    Follow
+                </button>
+
+                <button class="btn btn-gst-danger">
+                    <ion-icon name="stop-circle-outline"></ion-icon>
+                    Stop
+                </button>
+                <button class="btn btn-gst-success">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                    Play
+                </button>
+                <button class="btn btn-gst-warn">
+                    <ion-icon name="trash-outline"></ion-icon>
+                    Delete
+                </button>
+
+            </div>
+            <p class="padding-l">To use the above Ghost Buttons components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/6202ba3f234b8a0015700be2" style="width: 100%; height: 307px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+
+
+            <h2 class="sub-heading">Disabled Buttons</h2>
+            <p class="padding-l">Buttons with functionalty disabled.</p>
+            <div class="element-display">
+                <button class="btn btn-primary disabled" disabled>
+                    Primary button
+                </button>
+
+                <button class="btn btn-gst-danger disabled" disabled>
+                    <ion-icon name="stop-circle-outline"></ion-icon>
+                    Stop
+                </button>
+                <button class="btn btn-ol-success disabled" disabled>
+                    Success
+                </button>
+                <button class="btn btn-warn disabled" disabled>
+                    <ion-icon name="trash-outline"></ion-icon>
+                    Delete
+                </button>
+
+            </div>
+            <p class="padding-l">To use the above Disabled Buttons components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/6202ba6d234b8a0015700be3" style="width: 100%; height: 281px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+
+
+            <h2 class="sub-heading">Icon only Buttons</h2>
+            <p class="padding-l">Buttons that contains only icons.</p>
+            <div class="element-display">
+                <button class="btn btn-add ">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+
+                <button class="btn btn-like ">
+                    <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+
+            </div>
+            <p class="padding-l">To use the above Icon only Buttons components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/6202ba99234b8a0015700be4" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+
+
+            <div class="divider margin-v-l"></div>
+            <div class="bottom-nav flex-space-between">
+
+                <a class="color-text" href="../Badge/badge.html">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Badges
+                </a>
+                <a class="color-text" href="#">Cards <ion-icon name="arrow-forward-circle-outline"></ion-icon> 
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class="footer flex-space-even">
+        <div class="gratitude">
+            <div class="brand">
+                <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+                <span>Light UI</span>
+
+            </div>
+            <p> Designed and built with all the love in the world by the
+                <a class="footer-link color-text" href="https://maruthipothuganti.netlify.app" target="_blank">Maruthi Pothuganti</a> with the help of our NeoG Community.
+            </p>
+        </div>
+
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

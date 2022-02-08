@@ -1,0 +1,240 @@
+    @import url(/CSS/variable.css);
+    .btn {
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .btn-primary {
+        background-color: var(--prime-blue);
+        color: var( --secondary-white);
+        border: 2px solid transparent;
+    }
+    
+    .btn-primary:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-secondary {
+        background-color: var( --secondary-white);
+        border: 1px solid;
+    }
+    
+    .btn-secondary:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-accent {
+        background-color: var( --accent-color);
+        color: var( --secondary-white);
+        border: 2px solid transparent;
+    }
+    
+    .btn-accent:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-danger {
+        background-color: var( --danger-color);
+        color: var( --secondary-white);
+        border: 2px solid transparent;
+    }
+    
+    .btn-danger:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-success {
+        background-color: var( --success-color);
+        color: var( --secondary-white);
+        border: 2px solid transparent;
+    }
+    
+    .btn-success:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-warn {
+        background-color: var( --warning-color);
+        color: var( --secondary-white);
+        border: 2px solid transparent;
+    }
+    
+    .btn-warn:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    /* ------------------------------------------------------------ */
+    
+    .btn-ol-primary {
+        border: 1px solid var(--prime-blue);
+    }
+    
+    .btn-ol-primary:hover {
+        background-color: var(--prime-blue);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-primary:focus {
+        color: var(--secondary-white);
+        background-color: var(--prime-blue);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-ol-secondary {
+        background-color: var( --secondary-white);
+        border: 1px solid;
+    }
+    
+    .btn-ol-secondary:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-ol-accent {
+        border: 2px solid var( --accent-color);
+    }
+    
+    .btn-ol-accent:hover {
+        background-color: var(--accent-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-accent:focus {
+        background-color: var(--accent-color);
+        outline: 2px solid var(--prime-blue-lt);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-danger {
+        border: 2px solid var(--danger-color);
+    }
+    
+    .btn-ol-danger:hover {
+        background-color: var( --danger-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-danger:focus {
+        background-color: var( --danger-color);
+        outline: 2px solid var(--prime-blue-lt);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-success {
+        border: 2px solid var( --success-color);
+    }
+    
+    .btn-ol-success:focus {
+        color: var(--secondary-white);
+        background-color: var( --success-color);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-ol-success:hover {
+        color: var(--secondary-white);
+        background-color: var( --success-color);
+    }
+    
+    .btn-ol-warn {
+        border: 2px solid var( --warning-color);
+    }
+    
+    .btn-ol-warn:focus {
+        outline: 2px solid var(--prime-blue-lt);
+        background-color: var( --warning-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-ol-warn:hover {
+        background-color: var( --warning-color);
+        color: var(--secondary-white);
+    }
+    /*------------------------------------------------------------------------*/
+    
+    .btn-gst-primary {
+        background-color: transparent;
+        outline: 2px solid transparent;
+    }
+    
+    .btn-gst-primary:hover {
+        background-color: var(--prime-blue);
+        color: var(--secondary-white);
+    }
+    
+    .btn-gst-primary:focus {
+        color: var(--secondary-white);
+        background-color: var(--prime-blue);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-gst-danger {
+        background-color: transparent;
+        outline: 2px solid transparent;
+    }
+    
+    .btn-gst-danger:hover {
+        background-color: var(--danger-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-gst-danger:focus {
+        color: var(--secondary-white);
+        background-color: var(--danger-color);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-gst-success {
+        background-color: transparent;
+        outline: 2px solid transparent;
+    }
+    
+    .btn-gst-success:hover {
+        background-color: var(--success-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-gst-success:focus {
+        color: var(--secondary-white);
+        background-color: var(--success-color);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    
+    .btn-gst-warn {
+        background-color: transparent;
+        outline: 2px solid transparent;
+    }
+    
+    .btn-gst-warn:hover {
+        background-color: var(--warning-color);
+        color: var(--secondary-white);
+    }
+    
+    .btn-gst-warn:focus {
+        color: var(--secondary-white);
+        background-color: var(--warning-color);
+        outline: 2px solid var(--prime-blue-lt);
+    }
+    /*--------------------------------------------------------------------*/
+    
+    .disabled {
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+    /*----------------------------------------------------------------*/
+    
+    .btn-add {
+        background-color: var(--success-color);
+        color: var(--secondary-white);
+        font-size: medium;
+    }
+    
+    .btn-like {
+        background-color: var(--danger-color);
+        color: var(--secondary-white);
+        font-size: medium;
+    }
+    
+    .btn-add:hover,
+    .btn-add:focus,
+    .btn-like:hover,
+    .btn-like:focus {
+        outline: 2px solid var(--prime-blue-lt);
+    }
