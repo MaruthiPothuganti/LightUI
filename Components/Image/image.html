@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badge | LightUI</title>
+    <title>Image | LightUI</title>
     <link rel="stylesheet" href="../../Docs/doc.css">
-    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="image.css">
 </head>
 
 <body>
@@ -32,11 +32,11 @@
             <h2 class="comp-head">Components</h2>
             <ul class="padding-s">
                 <li class="comp-el padding-v-l"><a href="../Avatar/avatar.html">Avatar</a></li>
-                <li class="comp-el padding-v-l"><a class="active" href="#">Alert</a></li>
+                <li class="comp-el padding-v-l"><a href="../Alert/alert.html">Alert</a></li>
                 <li class="comp-el padding-v-l"><a href="../Badge/badge.html">Badges</a></li>
                 <li class="comp-el padding-v-l"><a href="../Button/button.html">Button</a></li>
                 <li class="comp-el padding-v-l"><a href="../Card/card.html">Card</a></li>
-                <li class="comp-el padding-v-l"><a href="../Image/image.html">Image</a></li>
+                <li class="comp-el padding-v-l"><a class="active" href="#">Image</a></li>
                 <li class="comp-el padding-v-l"><a href="#">Toasts</a></li>
                 <li class="comp-el padding-v-l"><a href="#">Lists</a></li>
                 <li class="comp-el padding-v-l"><a href="#">Navigation</a></li>
@@ -44,46 +44,50 @@
             </ul>
         </div>
         <div class="main-content padding-l">
-            <h1 id="main-heading">Alert</h1>
-            <p class="padding-l">Alerts are pop-ups with a little information. They can be created by using the <span class="color-text">alert</span> followed by the variant name.</p>
-            <div class="flex-column">
-                <div class="alert alert-primary">This is a Primary Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-                <div class="alert alert-secondary">This is a Secondary Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-                <div class="alert alert-info">This is a Info Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-                <div class="alert alert-warning">This is a Warning Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-                <div class="alert alert-danger">This is a Danger Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-                <div class="alert alert-success">This is a Success Alert
-                    <ion-icon name="close-circle"></ion-icon>
-                </div>
-            </div>
+            <h1 id="main-heading">Responsive image</h1>
+            <p class="padding-l">Responsive images adjust themselves accordingly to the Screen Sizes.</p>
             <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Responsive box image</h2>
+            <p class="padding-l">Image that is responsive and not round in shape</p>
+
+            <div class="element-display">
+
+                <figure>
+                    <img class="resp-img" src="/Assets/Images/Suit.jpg" alt="Man in Suit">
+                </figure>
+
+            </div>
+
             <!-- ---------------------------------------------------------------- -->
-            <p class="padding-l">To use the above alert components, just copy and paste the below code snippets:</p>
-            <iframe src="https://www.thiscodeworks.com/embed/620033ef4dd44f0015f3ccbc" style="width: 100%; height: 411px;" frameborder="0"></iframe>
+            <p class="padding-l">To use the above Responsive image components, just copy and paste the below code snippets:</p>
 
-
-
+            <iframe src="https://www.thiscodeworks.com/embed/6204126cc6efb50015062db5" style="width: 100%; height: 125px;" frameborder="0"></iframe>
 
 
             <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+
+            <h2 class="sub-heading">Responsive round image</h2>
+            <p class="padding-l">Image that is responsive as well as round in shape.</p>
+            <div class="element-display">
+
+                <figure>
+                    <img class="resp-img round" src="/Assets/Images/anon.jfif" alt="Man in Suit">
+                </figure>
+
+
+
+            </div>
+            <p class="padding-l">To use the above badge on avatar components, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/620412c0c6efb50015062db6" style="width: 100%; height: 125px;" frameborder="0"></iframe>
 
             <div class="divider margin-v-l"></div>
             <div class="bottom-nav flex-space-between">
 
-                <a class="color-text" href="../Avatar/avatar.html">
-                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Avatar
+                <a class="color-text" href="../Card/card.html">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Card
                 </a>
-                <a class="color-text" href="../Badge/badge.html">Badges <ion-icon name="arrow-forward-circle-outline"></ion-icon> 
+                <a class="color-text" href="../Button/button.html">Input <ion-icon name="arrow-forward-circle-outline"></ion-icon> 
                 </a>
 
             </div>
@@ -108,7 +112,6 @@
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
