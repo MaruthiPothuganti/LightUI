@@ -14,7 +14,7 @@
 .baselineToastContainer {
     border-radius: 0.5rem;
     padding: 1rem 2rem;
-    background-color: black;
+    background-color: var(--text-color);
     color: var(--secondary-white);
     font-weight: bold;
 }
@@ -50,7 +50,7 @@
 .stackedToastContainer {
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
-    background-color: black;
+    background-color: var(--text-color);
     color: var(--secondary-white);
     font-weight: bold;
 }
@@ -72,7 +72,7 @@
 .leadingToastContainer {
     border-radius: 0.5rem;
     padding: 1rem 2rem;
-    background-color: black;
+    background-color: var(--text-color);
     color: var(--secondary-white);
     bottom: 1rem;
     font-weight: bold;
