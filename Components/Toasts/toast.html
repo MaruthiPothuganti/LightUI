@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast | LightUI</title>
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="toast.css">
+</head>
+
+<body>
+
+    <div class="nav flex-space-between padding-xxl shadow-sm">
+        <!-- <ion-icon class="header-icon" name="sunny-outline"></ion-icon> -->
+
+        <a href="../../index.html">
+            <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+        </a>
+        <ion-icon class="header-icon" name="moon"></ion-icon>
+    </div>
+    <main class="flex-row">
+        <div class="menuList">
+            <h2 class="comp-head">Getting Started</h2>
+            <ul class="padding-s">
+
+                <li class="comp-el padding-v-l"><a href="../../Docs/docs.html">Typography</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/colors.html">Colors</a></li>
+                <li class="comp-el padding-v-l"><a href="../../Docs/conclusion.html">Conclusions</a></li>
+            </ul>
+            <br>
+            <h2 class="comp-head">Components</h2>
+            <ul class="padding-s">
+                <li class="comp-el padding-v-l"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="comp-el padding-v-l"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="comp-el padding-v-l"><a href="../Badge/badge.html">Badges</a></li>
+                <li class="comp-el padding-v-l"><a href="../Button/button.html">Button</a></li>
+                <li class="comp-el padding-v-l"><a href="../Card/card.html">Card</a></li>
+                <li class="comp-el padding-v-l"><a href="../Image/image.html">Image</a></li>
+                <li class="comp-el padding-v-l"><a class="active" href="#">Toasts</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Input</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Lists</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Navigation</a></li>
+                <li class="comp-el padding-v-l"><a href="#">Text-utilities</a></li>
+            </ul>
+        </div>
+        <div class="main-content padding-l">
+            <h1 id="main-heading">Toast/ Snackbar</h1>
+            <p class="padding-l">Toasts are popups with certain information like connectivity status or for a warning or completeion of a task.</p>
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">Baseline Toast</h2>
+            <p class="padding-l">This toast appears at the bottom of the screen in the center.</p>
+
+            <div class="element-display">
+
+                <span class="baselineToastContainer">
+                <p class="toast">Can't send photo. Retry in 5 seconds.
+                <span class="toastLinks">
+                <a class="action-pill" href="#">Retry</a>
+                <a class="action-pill "href="#"><ion-icon class="closeSnackbar" name="close-circle-outline"></ion-icon></a>
+                </span>
+                </p>
+                </span>
+
+            </div>
+
+            <!-- ---------------------------------------------------------------- -->
+            <p class="padding-l">To use the above Baseline Toast component, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/620491ebc6efb50015062dfc" style="width: 100%; height: 216px;" frameborder="0"></iframe>
+
+
+            <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+
+            <h2 class="sub-heading">Leading</h2>
+            <p class="padding-l">This toast appears at the bottom-left of the screen.</p>
+
+            <div class="element-display">
+
+                <span class="leadingToastContainer">
+                <p class="toast">Your photo is Archived.
+                <span class="toastLinks">
+                <a class="action-pill" href="#">Undo</a>
+                <a class="action-pill" href="#"><ion-icon class="closeSnackbar" name="close-circle-outline"></ion-icon></a>
+                </span>
+                </p>
+                </span>
+
+            </div>
+
+            <p class="padding-l">To use the above Leading toast component, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/62049222c6efb50015062dfd" style="width: 100%; height: 216px;" frameborder="0"></iframe>
+
+
+            <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+
+            <h2 class="sub-heading">Stacked</h2>
+            <p class="padding-l">This toast also appears at the bottom of the screen in the center but has a stacked content.</p>
+
+            <div class="element-display">
+
+                <span class="stackedToastContainer">
+                    <p class="stackedToast">This item has the label "Travel". You can add new label.</p>
+                     <span class="stackedtoastLinks">
+                    <a class="action-pill" href="#">Add a new Label</a>
+                    <a class="action-pill" href="#"><ion-icon class="closeSnackbar" name="close-circle-outline"></ion-icon></a>
+                    </span>
+
+                </span>
+
+            </div>
+
+            <p class="padding-l">To use the above Stacked Toast component, just copy and paste the below code snippets:</p>
+            <iframe src="https://www.thiscodeworks.com/embed/62049254c6efb50015062dfe" style="width: 100%; height: 216px;" frameborder="0"></iframe>
+
+            <div class="divider margin-v-l"></div>
+            <div class="bottom-nav flex-space-between">
+
+                <a class="color-text" href="../Image/image.html">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Image
+                </a>
+                <a class="color-text" href="#">Input <ion-icon name="arrow-forward-circle-outline"></ion-icon> 
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class="footer flex-space-even">
+        <div class="gratitude">
+            <div class="brand">
+                <ion-icon class="header-icon" name="logo-laravel"></ion-icon>
+                <span>Light UI</span>
+
+            </div>
+            <p> Designed and built with all the love in the world by the
+                <a class="footer-link color-text" href="https://maruthipothuganti.netlify.app" target="_blank">Maruthi Pothuganti</a> with the help of our NeoG Community.
+            </p>
+        </div>
+
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

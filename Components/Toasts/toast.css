@@ -1,0 +1,79 @@
+@import url(/CSS/variable.css);
+.btn {
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 0.6rem;
+    width: 100px;
+    cursor: pointer;
+    background: var(--secondary-white);
+    box-shadow: 5px 5px 9px #bebebe, -5px -5px 9px var(--secondary-white);
+    margin: 0.5rem;
+}
+
+.baselineToastContainer {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--text-color);
+    color: var(--secondary-white);
+    font-weight: bold;
+}
+
+.toast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-pill {
+    text-decoration: none;
+    color: red;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.toastLinks {
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.closeSnackbar {
+    font-size: large;
+}
+
+.closeSnackbar:hover {
+    opacity: 0.5;
+}
+
+
+/*-----------------------------------------*/
+
+.stackedToastContainer {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--text-color);
+    color: var(--secondary-white);
+    font-weight: bold;
+}
+
+.stackedtoastLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.stackedToast {
+    padding-top: 1rem;
+}
+
+
+/*--------------------------------------------*/
+
+.leadingToastContainer {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--text-color);
+    color: var(--secondary-white);
+    bottom: 1rem;
+    font-weight: bold;
+}
