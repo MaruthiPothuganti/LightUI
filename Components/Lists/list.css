@@ -1,0 +1,66 @@
+@import url(/CSS/variable.css);
+.list-container {
+    gap: 50px;
+}
+
+.list,
+.stacked-list {
+    font-size: 1.5rem;
+}
+
+.roman {
+    list-style-type: lower-roman;
+}
+
+.roman {
+    list-style-type: lower-roman;
+}
+
+.icon {
+    list-style: url("/Assets/Images/skull.svg");
+}
+
+.stacked-list {
+    background-color: var(--accent-color);
+    color: var(--secondary-white);
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.floated-li-img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.floated-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    background-color: var(--accent-color);
+    color: var(--secondary-white);
+    padding: 0.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.floated-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.floated-list-btn {
+    padding: 0.5rem;
+    color: var(--accent-color);
+    border-radius: 2px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
