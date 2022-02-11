@@ -1,15 +1,11 @@
 @import url(/CSS/variable.css);
 .list-container {
-    gap: 50px;
+    gap: 5rem;
 }
 
 .list,
 .stacked-list {
     font-size: 1.5rem;
-}
-
-.roman {
-    list-style-type: lower-roman;
 }
 
 .roman {
