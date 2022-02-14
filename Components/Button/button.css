@@ -8,6 +8,7 @@
         background-color: var(--prime-blue);
         color: var( --secondary-white);
         border: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-primary:focus {
@@ -27,6 +28,7 @@
         background-color: var( --accent-color);
         color: var( --secondary-white);
         border: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-accent:focus {
@@ -37,6 +39,7 @@
         background-color: var( --danger-color);
         color: var( --secondary-white);
         border: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-danger:focus {
@@ -47,6 +50,7 @@
         background-color: var( --success-color);
         color: var( --secondary-white);
         border: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-success:focus {
@@ -57,6 +61,7 @@
         background-color: var( --warning-color);
         color: var( --secondary-white);
         border: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-warn:focus {
@@ -66,6 +71,7 @@
     
     .btn-ol-primary {
         border: 1px solid var(--prime-blue);
+        cursor: pointer;
     }
     
     .btn-ol-primary:hover {
@@ -82,6 +88,7 @@
     .btn-ol-secondary {
         background-color: var( --secondary-white);
         border: 1px solid;
+        cursor: pointer;
     }
     
     .btn-ol-secondary:focus {
@@ -90,6 +97,7 @@
     
     .btn-ol-accent {
         border: 2px solid var( --accent-color);
+        cursor: pointer;
     }
     
     .btn-ol-accent:hover {
@@ -105,6 +113,7 @@
     
     .btn-ol-danger {
         border: 2px solid var(--danger-color);
+        cursor: pointer;
     }
     
     .btn-ol-danger:hover {
@@ -120,6 +129,7 @@
     
     .btn-ol-success {
         border: 2px solid var( --success-color);
+        cursor: pointer;
     }
     
     .btn-ol-success:focus {
@@ -135,6 +145,7 @@
     
     .btn-ol-warn {
         border: 2px solid var( --warning-color);
+        cursor: pointer;
     }
     
     .btn-ol-warn:focus {
@@ -152,6 +163,7 @@
     .btn-gst-primary {
         background-color: transparent;
         outline: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-gst-primary:hover {
@@ -168,6 +180,7 @@
     .btn-gst-danger {
         background-color: transparent;
         outline: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-gst-danger:hover {
@@ -184,6 +197,7 @@
     .btn-gst-success {
         background-color: transparent;
         outline: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-gst-success:hover {
@@ -200,6 +214,7 @@
     .btn-gst-warn {
         background-color: transparent;
         outline: 2px solid transparent;
+        cursor: pointer;
     }
     
     .btn-gst-warn:hover {
@@ -224,12 +239,14 @@
         background-color: var(--success-color);
         color: var(--secondary-white);
         font-size: medium;
+        cursor: pointer;
     }
     
     .btn-like {
         background-color: var(--danger-color);
         color: var(--secondary-white);
         font-size: medium;
+        cursor: pointer;
     }
     
     .btn-add:hover,
