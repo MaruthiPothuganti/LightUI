@@ -1,0 +1,43 @@
+    @import url(/CSS/variable.css);
+    @import url(/Components/Badge/badge.css);
+    @import url(/Components/Button/button.css);
+    .navbar {
+        width: 100%;
+        background-color: var(--accent-color);
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .searchbar {
+        padding: 1rem;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .btn-search {
+        background: var(--prime-blue);
+        cursor: pointer;
+        padding: 1rem;
+        color: var(--secondary-white);
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .nav-pill {
+        gap: 3rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 992px) {
+        .nav-pill {
+            display: none;
+        }
+        .searchbar {
+            padding: 0.4rem;
+        }
+        .btn-search {
+            padding: 0.4rem;
+        }
+    }
