@@ -18,7 +18,7 @@
     }
 
     #mode-switch {
-        cursor: pointer !important;
+        cursor: pointer;
     }
 
     .dark-mode {
@@ -144,15 +144,20 @@
         .ham-menu {
             display: inline-flex;
         }
+        .desktop {
+            display: none;
+        }
         .menuList {
             position: absolute;
             width: 250px;
-            transform: translate(-300px, 0);
+            height: 100vh;
+            transform: translate(-290px, 0);
             transition: transform 0.5s ease;
             background-color: var(--secondary-white);
+            z-index: 10;
         }
         .navActive {
-            transform: translate(0, 0);
+            transform: translate(-30px);
             background-color: var(--secondary-white);
         }
     }

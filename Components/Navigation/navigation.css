@@ -8,12 +8,12 @@
         justify-content: space-between;
         padding: 1rem 2rem;
     }
-    
-    #searchbar {
+
+    .searchbar {
         padding: 1rem;
         border-radius: 5px 0px 0px 5px;
     }
-    
+
     .btn-search {
         background: var(--prime-blue);
         cursor: pointer;
@@ -21,20 +21,20 @@
         color: var(--secondary-white);
         border-radius: 0px 5px 5px 0px;
     }
-    
+
     .nav-pill {
         gap: 3rem;
     }
-    
+
     .icon {
         font-size: 3rem;
     }
-    
+
     @media only screen and (max-width: 992px) {
         .nav-pill {
             display: none;
         }
-        #searchbar {
+        .searchbar {
             padding: 0.4rem;
         }
         .btn-search {
