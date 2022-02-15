@@ -22,7 +22,7 @@
 .form-control label {
     font-size: small;
     display: inline-block;
-    margin: 15px 0px 5px 0px;
+    margin: 1rem 0rem 0.7rem 0rem;
 }
 
 .form-control small {
