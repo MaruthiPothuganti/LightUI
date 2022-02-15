@@ -1,0 +1,58 @@
+@import url(/CSS/variable.css);
+.form-container {
+    background-color: var(--prime-blue);
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.header {
+    padding: 1rem 2rem 1rem 0rem;
+    font-size: x-large;
+}
+
+.form-control input {
+    display: block;
+    border: 3px solid transparent;
+    padding: 0.7rem;
+    width: 100%;
+}
+
+.form-control label {
+    font-size: small;
+    display: inline-block;
+    margin: 15px 0px 5px 0px;
+}
+
+.form-control small {
+    font-size: small;
+    visibility: hidden;
+}
+
+.form-container button {
+    padding: 0.7rem;
+    color: var(--prime-blue);
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: white;
+    width: 30%;
+}
+
+.form-control.valid input {
+    border-color: var(--success-color);
+}
+
+.form-control.invalid input {
+    border-color: var(--warning-color);
+}
+
+.form-control.valid small {
+    visibility: visible;
+    color: var(--success-color);
+}
+
+.form-control.invalid small {
+    visibility: visible;
+    color: var(--warning-color);
+}

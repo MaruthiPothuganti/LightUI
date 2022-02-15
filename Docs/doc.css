@@ -2,7 +2,6 @@
     @import url('../CSS/utility.css');
     @import url('../CSS/variable.css');
     @import url('../CSS/nav.css');
-    @import url('../CSS/footer.css');
     .color-text {
         color: var(--prime-blue);
         font-weight: 600;
@@ -22,7 +21,7 @@
     }
 
     .dark-mode {
-        background-color: var(--text-color);
+        background-color: var( --secondary-bg-color);
         color: var(--secondary-white);
     }
 
@@ -31,7 +30,7 @@
         flex-basis: 250px;
         min-width: 250px;
         height: 100vh;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .active {
@@ -150,7 +149,7 @@
         .menuList {
             position: absolute;
             width: 250px;
-            height: 100vh;
+            height: auto;
             transform: translate(-290px, 0);
             transition: transform 0.5s ease;
             background-color: var(--secondary-white);
@@ -159,6 +158,12 @@
         .navActive {
             transform: translate(-30px);
             background-color: var(--secondary-white);
+        }
+        .embedded-code {
+            width: 95%;
+        }
+        .element-display {
+            width: 95%;
         }
     }
 
