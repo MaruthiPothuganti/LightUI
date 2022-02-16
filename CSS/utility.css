@@ -201,6 +201,11 @@ body {
     justify-content: space-around;
 }
 
+.flex-start {
+    display: flex;
+    justify-self: start;
+}
+
 
 /*--------------------------------------------------scroll------------------------------------------------------------------*/
 

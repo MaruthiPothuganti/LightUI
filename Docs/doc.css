@@ -6,25 +6,25 @@
         color: var(--prime-blue);
         font-weight: 600;
     }
-
+    
     .flex-row {
         width: 90%;
         margin: 0 auto;
     }
-
+    
     .ham-menu {
         display: none;
     }
-
+    
     #mode-switch {
         cursor: pointer;
     }
-
+    
     .dark-mode {
         background-color: var( --secondary-bg-color);
         color: var(--secondary-white);
     }
-
+    
     .menuList {
         padding: 3rem 0 0 3rem;
         flex-basis: 250px;
@@ -32,49 +32,49 @@
         height: 100vh;
         font-size: 1.4rem;
     }
-
+    
     .active {
         color: var(--accent-color);
         font-weight: bolder;
         padding-left: 1rem;
     }
-
+    
     .comp-head {
         font-weight: bolder;
     }
-
+    
     .comp-el a:hover {
         color: var(--accent-color);
         font-weight: 700;
         padding-left: 1rem;
     }
-
+    
     .main-content {
         flex-grow: 1;
     }
-
+    
     #main-heading {
         font-size: 3rem;
     }
-
+    
     .sub-heading {
         font-size: 2rem;
     }
-
+    
     .headings {
         font-size: 2.5rem;
     }
-
+    
     p,
     .bottom-nav {
         font-size: medium;
         letter-spacing: 0.8px;
     }
-
+    
     .divider {
         border-top: 1px solid grey;
     }
-
+    
     .element-display {
         display: flex;
         justify-content: center;
@@ -85,7 +85,14 @@
         padding: 2rem;
         gap: 10px;
     }
-
+    
+    .text-display {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 2rem;
+        gap: 10px;
+    }
+    
     .color {
         display: flex;
         flex-direction: column;
@@ -97,31 +104,31 @@
         font-weight: 600;
         padding: 1rem;
     }
-
+    
     .primary {
         background-color: var(--prime-blue);
     }
-
+    
     .seccondary {
         background-color: var(--secondary-white);
     }
-
+    
     .accent {
         background-color: var(--accent-color);
     }
-
+    
     .danger {
         background-color: var(--danger-color);
     }
-
+    
     .success {
         background-color: var(--success-color);
     }
-
+    
     .warning {
         background-color: var(--warning-color);
     }
-
+    
     .footer {
         height: 40vh;
         font-size: small;
@@ -130,11 +137,11 @@
         padding: var(--size-11);
         line-height: 2.5;
     }
-
+    
     .footer-link:hover {
         border-bottom: 2px solid red;
     }
-
+    
     @media only screen and (max-width: 992px) {
         .menulist-parent {
             position: relative;
@@ -166,11 +173,11 @@
             width: 95%;
         }
     }
-
+    
     body::-webkit-scrollbar {
         width: 5px;
     }
-
+    
     body::-webkit-scrollbar-thumb {
         background-color: var(--prime-blue);
     }
