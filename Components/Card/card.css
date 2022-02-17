@@ -120,7 +120,7 @@
     }
     /* ---------------------------------------------- */
     
-    .badge {
+    .card-badge {
         position: absolute;
         top: 5%;
         color: var(--secondary-white);
@@ -177,7 +177,7 @@
         padding: 1rem;
     }
     
-    .btn {
+    .card-btn {
         width: 45%;
         display: flex;
         align-items: center;
@@ -186,22 +186,22 @@
         border-radius: 0.5rem;
     }
     
-    .btn-primary {
+    .card-btn-primary {
         background-color: var(--prime-blue);
         color: var( --secondary-white);
         border: 2px solid transparent;
     }
     
-    .btn-primary:focus {
+    .card-btn-primary:focus {
         outline: 2px solid var(--prime-blue-lt);
     }
     
-    .btn-secondary {
+    .card-btn-secondary {
         background-color: var( --secondary-white);
         border: 1px solid;
     }
     
-    .btn-secondary:focus {
+    .card-btn-secondary:focus {
         outline: 2px solid var(--prime-blue-lt);
     }
     /*---------------------------------------------------*/

@@ -1,16 +1,4 @@
 @import url(/CSS/variable.css);
-.btn {
-    font-size: 14px;
-    padding: 10px;
-    border: none;
-    border-radius: 0.6rem;
-    width: 100px;
-    cursor: pointer;
-    background: var(--secondary-white);
-    box-shadow: 5px 5px 9px #bebebe, -5px -5px 9px var(--secondary-white);
-    margin: 0.5rem;
-}
-
 .baselineToastContainer {
     border-radius: 0.5rem;
     padding: 1rem 2rem;

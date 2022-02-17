@@ -1,3 +1,6 @@
+@import url("/CSS/reset.css");
+@import url("/CSS/utility.css");
+@import url("/CSS/variable.css");
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Badge/badge.css");
@@ -9,6 +12,3 @@
 @import url("/Components/Navigation/navigation.css");
 @import url("/Components/Text-Utilities/textutilities.css");
 @import url("/Components/Toasts/toast.css");
-@import url("/CSS/reset.css");
-@import url("/CSS/utility.css");
-@import url("/CSS/variable.css");
