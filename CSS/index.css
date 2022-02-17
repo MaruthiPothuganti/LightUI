@@ -2,7 +2,7 @@
     @import url('./utility.css');
     @import url('./variable.css');
     @import url('./nav.css');
-    @import url('./footer.css');
+    @import url('/Components/Button/button.css');
     /*-----------------------------header--------------------------------------*/
     /*-----------------------------------container------------------------------------------------*/
     
@@ -14,26 +14,13 @@
         margin: var(--size-11);
     }
     
-    .btn {
+    .hero-btn {
         width: 120px;
         font-size: var(--size-6);
         padding: var( --size-5);
         margin: var(--size-6);
         border-radius: var(--size-2);
         font-weight: bold;
-    }
-    
-    .btn-primary {
-        background-color: var(--prime-blue);
-        color: var(--secondary-white);
-    }
-    
-    .btn-secondary {
-        border: 2px solid var(--prime-blue);
-    }
-    
-    .btn-secondary:hover {
-        background-color: var(--prime-blue);
     }
     /*----------------------------------------------------INFO------------------------------------------------------*/
     
