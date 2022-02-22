@@ -3,19 +3,19 @@
         --bg-one: rgb(240, 227, 227);
         --bg-two: rgb(104, 104, 103);
     }
-    
+
     .basic-card {
         background-color: var(--prime-blue);
         width: 30rem;
         border: 1px solid var(--prime-blue);
         border-radius: 0.5rem;
     }
-    
+
     .card-desc {
         padding: 1.5rem;
         color: var(--secondary-white);
     }
-    
+
     .action-links {
         padding: 1.5rem;
         border-top: 1px solid;
@@ -24,36 +24,37 @@
         color: var(--accent-color);
     }
     /* -------------------------------------------- */
-    
+
     .image-card {
         width: 350px;
         border-radius: 1rem;
         border: 1px solid var(--bg-one);
         box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
         position: relative;
     }
-    
+
     .image {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
     }
-    
+
     .card-title {
         position: absolute;
         bottom: 20%;
         color: var(--secondary-white);
     }
-    
+
     .image-card-desc {
         padding: 2.5rem 1;
         font-size: small;
     }
-    
+
     .img-card-links {
         border-top: 1px solid var(--danger-color);
     }
     /*--------------------------------------------------------------*/
-    
+
     .image-card-btn {
         position: absolute;
         font-size: large;
@@ -66,60 +67,60 @@
         cursor: pointer;
     }
     /*--------------------------------------------------------------*/
-    
+
     .horizontal-card {
         background-color: var(--prime-blue);
         border: 1px solid var(--prime-blue);
         border-radius: 0.5rem;
         width: 320px;
     }
-    
+
     .h-card-title {
         display: flex;
         justify-content: space-between;
         color: var(--secondary-white);
         border-bottom: 1px black solid;
     }
-    
+
     .h-card-sub {
         padding: 0rem 0rem 0rem 1rem;
     }
-    
+
     .h-card-img {
         border-radius: 0.5rem;
         width: 8rem;
         height: 8rem;
     }
-    
+
     .h-card-desc {
         font-size: small;
         color: var(--secondary-white);
     }
-    
+
     .h-card-btns button {
         padding: 1rem;
     }
-    
+
     .hc-accept {
         border-radius: 0.5rem 0 0 0.5rem;
         border-right: 1px solid;
     }
-    
+
     .hc-reject {
         border-radius: 0 0.5rem 0.5rem 0;
     }
-    
+
     .hc-accept:hover {
         background-color: var(--accent-color);
         color: var(--secondary-white);
     }
-    
+
     .hc-reject:hover {
         background-color: var(--accent-color);
         color: var(--secondary-white);
     }
     /* ---------------------------------------------- */
-    
+
     .card-badge {
         position: absolute;
         top: 5%;
@@ -130,53 +131,55 @@
         border-radius: 0 5px 5px 0;
     }
     /*-----------------------------------------------------*/
-    
+
     .ecom-card {
+        position: relative;
         width: 400px;
         border: 1px solid var(--bg-one);
         border-radius: 10px;
     }
-    
+
     .ecom-img {
         width: 100%;
         height: auto;
         border-radius: 10px 10px 0px 0px;
+        position: relative;
     }
-    
+
     .prod-title {
         padding-bottom: 0;
     }
-    
+
     .seller {
         font-size: 1.5rem;
     }
-    
+
     .ecom-price {
         padding-top: 1rem;
     }
-    
+
     .sell-price {
         font-size: large;
         color: var(--danger-color);
     }
-    
+
     .strike-price {
         font-size: small;
         text-decoration: line-through;
     }
-    
+
     .ecom-disc {
         font-size: 1.5rem;
         margin-left: 1rem;
         padding: 0.5rem;
         background-color: var(--success-color);
     }
-    
+
     .action-btns {
         gap: 5%;
         padding: 1rem;
     }
-    
+
     .card-btn {
         width: 45%;
         display: flex;
@@ -185,31 +188,31 @@
         padding: 1rem 1.5rem;
         border-radius: 0.5rem;
     }
-    
+
     .card-btn-primary {
         background-color: var(--prime-blue);
         color: var( --secondary-white);
         border: 2px solid transparent;
     }
-    
+
     .card-btn-primary:focus {
         outline: 2px solid var(--prime-blue-lt);
     }
-    
+
     .card-btn-secondary {
         background-color: var( --secondary-white);
         border: 1px solid;
     }
-    
+
     .card-btn-secondary:focus {
         outline: 2px solid var(--prime-blue-lt);
     }
     /*---------------------------------------------------*/
-    
+
     .txt-overlay {
         position: relative;
     }
-    
+
     .txt-container {
         border-radius: 10px;
         position: absolute;
@@ -222,11 +225,20 @@
         align-items: center;
         opacity: 80%;
     }
-    
+
     .txt {
         color: var(--secondary-white);
         background-color: var(--danger-color);
         padding: 1rem;
         border-radius: 1rem;
         cursor: not-allowed;
+    }
+    /*-------------------------------------------------*/
+
+    .btn-dismiss {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: xx-large;
+        cursor: pointer;
     }
