@@ -12,6 +12,11 @@
     font-size: x-large;
 }
 
+.txt-area {
+    border: 1px solid;
+    padding: 1rem;
+}
+
 .form-control input {
     display: block;
     border: 3px solid transparent;
