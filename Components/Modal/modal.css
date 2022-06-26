@@ -1,0 +1,50 @@
+@import url(/CSS/variable.css);
+@import url(/Components/Button/button.css);
+body {
+    position: relative;
+}
+
+.modal {
+    position: absolute;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--secondary-white);
+    border: 1px solid var(--accent-color);
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    animation: fadein .5s;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.modal-btn {
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.modalShow {
+    display: block;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
