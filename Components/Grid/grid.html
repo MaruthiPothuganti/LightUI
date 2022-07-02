@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal | LightUI</title>
+    <title>Grid | LightUI</title>
     <link rel="stylesheet" href="../../Docs/doc.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 
 <body class="menulist-parent">
@@ -45,57 +45,42 @@
                 <li class="comp-el padding-v-l"><a href="../Lists/list.html">Lists</a></li>
                 <li class="comp-el padding-v-l"><a href="/Components/Navigation/navigation.html">Navigation</a></li>
                 <li class="comp-el padding-v-l"><a href="/Components/Text-Utilities/textutilities.html">Text-utilities</a></li>
-                <li class="comp-el padding-v-l"><a class="active" href="#">Modal</a></li>
-                <li class="comp-el padding-v-l"><a  href="/Components/Rating/rating.html">Rating</a></li>
+                <li class="comp-el padding-v-l"><a href="/Components/Modal/modal.html">Modal</a></li>
+                <li class="comp-el padding-v-l"><a href="/Components/Rating/rating.html">Rating</a></li>
                 <li class="comp-el padding-v-l"><a  href="/Components/Slider/slider.html">Slider</a></li>
-                <li class="comp-el padding-v-l"><a href="/Components/Grid/grid.html">Grid</a></li>
+                <li class="comp-el padding-v-l"><a class="active" href="#">Grid</a></li>
+
             </ul>
         </div>
         <div class="main-content padding-l">
-            <h1 id="main-heading">Modal</h1>
-            <p class="padding-l">A Modal is a dialog box/popup window that is displayed on top of the current page.</p>
+            <h1 id="main-heading">Grid</h1>
+            <p class="padding-l">Grid Component helps capture the user feedback in form of rating. With the help of this feature, users can also rate the products they have purchased</p>
             <div class="divider margin-v-l"></div>
-            <h2 class="sub-heading">Modal Demo</h2>
-            <p class="padding-l">Modal can be of different types such as modal with info, modal with actions etc. Below is a demo of the modal.</p>
+            <h2 class="sub-heading">Grid Demo</h2>
+            <p class="padding-l">Below is the preview of the Slider component</p>
 
             <div class="element-display">
 
-
-                <button id="btn-actionModal" class="btn btn-primary">Actionable Demo Modal</button>
-
-                <div id="actionModal" class="modal">
-                    <div class="modal-header">
-                        <h1 id="main-heading"> Modal Title</h1>
-                        <button id="closeModalBtn" class="btn-ol-secondary"><ion-icon name="close-outline"></ion-icon></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn-secondary modal-btn">Cancel</button>
-                        <button class="btn-primary modal-btn">Save Changes</button>
-                    </div>
-                </div>
+                <input type="range" list="tickmarks" id="rangeSlider">
+                <h3 id="value">50</h3>
 
             </div>
 
             <!-- ---------------------------------------------------------------- -->
-            <p class="padding-l">To use the any of the above Modal component, just copy and paste from the below code snippets:
+            <p class="padding-l">To use the rating component, just copy and paste from the below code snippet :
             </p>
 
-            <iframe src="https://www.thiscodeworks.com/embed/625a3784826b060015494b01" style="width: 100%; height: 255px;" frameborder="0"></iframe>
-
+            <iframe src="https://www.thiscodeworks.com/embed/62c00fd71fb477001571ab81" style="width: 100%; height: 112px;" frameborder="0"></iframe>
             <!-- ------------------------------------------------------------------ -->
 
 
             <div class="divider margin-v-l"></div>
             <div class="bottom-nav flex-space-between">
 
-                <a class="color-text" href="../Text-Utilities/textutilities.html">
-                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Text-Utilities
+                <a class="color-text" href="../Slider/slider.html">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon> Slider
                 </a>
-                <a class="color-text" href="../Rating/rating.html">Rating <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                <a class="color-text" href="#"> <ion-icon name=""></ion-icon>
                 </a>
 
             </div>
@@ -122,7 +107,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/Docs/doc.js"></script>
-    <script src="modal.js"></script>
+    <script src="slider.js"></script>
 </body>
 
 </html>
