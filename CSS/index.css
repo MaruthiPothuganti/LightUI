@@ -5,15 +5,15 @@
     @import url('/Components/Button/button.css');
     /*-----------------------------header--------------------------------------*/
     /*-----------------------------------container------------------------------------------------*/
-    
+
     .hero {
         font-size: 8rem;
     }
-    
+
     .hero-btns {
         margin: var(--size-11);
     }
-    
+
     .hero-btn {
         width: 120px;
         font-size: var(--size-6);
@@ -23,13 +23,13 @@
         font-weight: bold;
     }
     /*----------------------------------------------------INFO------------------------------------------------------*/
-    
+
     .info {
         width: 100%;
         font-size: 2rem;
         letter-spacing: 0.07rem;
     }
-    
+
     .info-box {
         height: 250px;
         width: 250px;
@@ -37,7 +37,7 @@
         text-align: center;
     }
     /*---------------------------------------------Footer-------------------------------------------------*/
-    
+
     .footer {
         height: 40vh;
         font-size: small;
@@ -46,31 +46,31 @@
         padding: var(--size-11);
         line-height: 2.5;
     }
-    
+
     .gratitude {
         width: 30%;
     }
-    
+
     .brand {
         display: flex;
         align-items: center;
     }
-    
+
     .footer-link {
         text-transform: unset;
         color: var( --secondary-white);
     }
-    
+
     .footer-link:hover {
         border-bottom: 2px solid red;
     }
-    
+
     @media screen and (min-width: 500px) {
         .mob-footer {
             display: none;
         }
     }
-    
+
     @media (max-width:500px) {
         html {
             font-size: 50%;
