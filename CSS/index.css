@@ -45,7 +45,6 @@
         color: var(--text-color-2);
         padding: var(--size-11);
         line-height: 2.5;
-        border: 5px solid var(--accent-color);
     }
 
     .gratitude {
