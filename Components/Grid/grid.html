@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid | LightUI</title>
     <link rel="stylesheet" href="../../Docs/doc.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body class="menulist-parent">
@@ -54,24 +54,63 @@
         </div>
         <div class="main-content padding-l">
             <h1 id="main-heading">Grid</h1>
-            <p class="padding-l">Grid Component helps capture the user feedback in form of rating. With the help of this feature, users can also rate the products they have purchased</p>
+            <p class="padding-l">The CSS Grid Layout Module offers a grid-based layout system, with rows and Sections, making it easier to design web pages without having to use floats and positioning.</p>
             <div class="divider margin-v-l"></div>
-            <h2 class="sub-heading">Grid Demo</h2>
-            <p class="padding-l">Below is the preview of the Slider component</p>
+            <h2 class="sub-heading">A 2 by 2 Grid</h2>
+            <p class="padding-l">Below is the preview of the 2 by 2 Grid layout</p>
 
             <div class="element-display">
 
-                <input type="range" list="tickmarks" id="rangeSlider">
-                <h3 id="value">50</h3>
+                <div class="grid grid2by2">
+                    <div class="item item1"><h3>Section 1</h3> </div>
+                    <div class="item item2"> <h3>Section 2</h3></div>
+                    <div class="item item1"><h3>Section 3</h3> </div>
+                    <div class="item item2"> <h3>Section 4</h3></div>
+                </div>
 
             </div>
 
             <!-- ---------------------------------------------------------------- -->
-            <p class="padding-l">To use the rating component, just copy and paste from the below code snippet :
+            <p class="padding-l">To use the above layout, just copy and paste from the below code snippet :
+            </p>
+            <iframe src="https://www.thiscodeworks.com/embed/62c82a4a265bd00015fcad07" style="width: 100%; height: 268px;" frameborder="0"></iframe>
+                        <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">20-80 Grid Demo</h2>
+            <p class="padding-l">Below is the preview of the 20-80 Grid Layout. These are most generic layouts which can be found everywhere with left section as menu and right section as content</p>
+
+            <div class="element-display">
+
+                <div class="grid grid-20-80">
+                    <div class="item item1"><h3>Section 1</h3> </div>
+                    <div class="item item2"> <h3>Section 2</h3></div>
+                </div>
+
+            </div>
+
+            <!-- ---------------------------------------------------------------- -->
+            <p class="padding-l">To use the above layout, just copy and paste from the below code snippet :
             </p>
 
-            <iframe src="https://www.thiscodeworks.com/embed/62c00fd71fb477001571ab81" style="width: 100%; height: 112px;" frameborder="0"></iframe>
-            <!-- ------------------------------------------------------------------ -->
+            <iframe src="https://www.thiscodeworks.com/embed/62c82a8e265bd00015fcad09" style="width: 100%; height: 190px;" frameborder="0"></iframe>            <!-- ------------------------------------------------------------------ -->
+            <div class="divider margin-v-l"></div>
+            <h2 class="sub-heading">50-50 Grid Demo</h2>
+            <p class="padding-l">Below is the preview of the 50-50 Grid Layout. These are generally seen in cards with images and descriptions.</p>
+
+            <div class="element-display">
+
+                <div class="grid grid-50-50">
+                    <div class="item item1"><h3>Section 1</h3> </div>
+                    <div class="item item2"> <h3>Section 2</h3></div>
+                </div>
+
+            </div>
+
+            <!-- ---------------------------------------------------------------- -->
+            <p class="padding-l">To use the above layout, just copy and paste from the below code snippet :
+            </p>
+
+            <iframe src="https://www.thiscodeworks.com/embed/62c82ab8265bd00015fcad0a" style="width: 100%; height: 190px;" frameborder="0"></iframe>            <!-- ------------------------------------------------------------------ -->
 
 
             <div class="divider margin-v-l"></div>
@@ -107,7 +146,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/Docs/doc.js"></script>
-    <script src="slider.js"></script>
 </body>
 
 </html>
